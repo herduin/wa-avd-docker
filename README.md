@@ -3,9 +3,14 @@ A Docker image based on Ubuntu Desktop with VNC and noVNC access, that runs a li
 
 The Dockerfile uses the following image as a base: [dorowu/ubuntu-desktop-lxde-vnc:xenial](https://hub.docker.com/r/dorowu/ubuntu-desktop-lxde-vnc/)
 
+## Autobuild Image In Docker
+A Docker image of this repo fully builded is hosted in [exusmultimedia/wa-avd](https://hub.docker.com/repository/docker/exusmultimedia/wa-avd)
+
+
 ## Deployment
 
 `docker-compose up --build`
+
 
 ## Access noVNC
 
@@ -13,6 +18,7 @@ Visit `localhost:6080`
 
 * Default username: `root`
 * Default password: `secret`
+
 
 ## Start Android AVD
 
